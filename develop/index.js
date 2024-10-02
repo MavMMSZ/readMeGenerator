@@ -31,6 +31,11 @@ const questions = [
         message: 'Please provide contribution guidelines for your project.'
     },
     {
+        type: 'input',
+        name: 'tests',
+        message: 'Please provide test instructions for your project.'
+    },
+    {
         type: 'list',
         name: 'license',
         message: 'Please select a license for your project.',
